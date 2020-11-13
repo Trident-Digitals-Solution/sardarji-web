@@ -20,7 +20,7 @@ class TypedAnim extends React.Component {
   render() {
     return (
       <span
-        style={{ marginLeft: '20px' }}
+        // style={{ marginLeft: '20px' }}
         ref={(el) => { this.el = el; }}
       />
     );
