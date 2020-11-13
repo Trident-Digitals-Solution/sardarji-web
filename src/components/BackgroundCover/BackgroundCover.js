@@ -5,8 +5,9 @@ import './BackgroundCover.css'
 const BackgroundCover = () => {
 return (
   <div className="container">
-    <div className="background-cover" />
-    <div className="background-image" />
+    <div className="background-cover" >
+      <div className="background-image" />
+    </div>
   </div>
     )
 }
