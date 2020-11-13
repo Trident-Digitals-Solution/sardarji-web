@@ -1,0 +1,35 @@
+.center {
+  margin-top: 11%;
+}
+
+.center>h1 {
+  margin-top: 30px;
+  color: rgb(8, 63, 110);
+  font-size: 80px;
+}
+
+.image {
+  display: grid;
+  position: relative;
+  width: auto;
+  margin: auto;
+  justify-content: center;
+}
+
+.image>img {
+  height: 300px;
+}
+
+@media(max-width:670px) {
+  .center>h1 {
+    font-size: 50px;
+  }
+
+  .image>img {
+    height: 250px;
+  }
+
+  .center {
+    margin-top: 15%;
+  }
+}
