@@ -5,45 +5,44 @@ import TypedAnim from './TypedAnim';
 const NavBar = () => {
   return (
     <div>
-      <nav className="navbar">
-        <div className="max-width">
-          <div className="logo"><a href="#home">Portfo<span>lio.</span></a></div>
-          <ul className="menu">
-            <li><a href="#home" className="menu-btn">Home</a></li>
-            <li><a href="#about" className="menu-btn">About</a></li>
-            <li><a href="#services" className="menu-btn">Services</a></li>
-            <li><a href="#skills" className="menu-btn">Skills</a></li>
-            <li><a href="#teams" className="menu-btn">Teams</a></li>
-            <li><a href="#contact" className="menu-btn">Contact</a></li>
-          </ul>
-          <div className="menu-btn">
-            <i className="fas fa-bars"></i>
-          </div>
+    <nav className="navbar">
+      <div className="max-width">
+        <div className="logo"><a href="#home">Sardar<span >Ji</span></a></div>
+        <ul className="menu">
+          <li><a href="#home" className="menu-btn">Home</a></li>
+          <li><a href="#about" className="menu-btn">About</a></li>
+          <li><a href="#services" className="menu-btn">Products</a></li>
+          <li><a href="#skills" className="menu-btn">Projects</a></li>
+          <li><a href="#contact" className="menu-btn">Contact</a></li>
+        </ul>
+        <div className="menu-btn">
+          <i className="fas fa-bars"></i>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-      <section className="home" id="home">
-        <div id="particles-js"></div>
-        <div className="max-width">
-          <div className="home-content">
-            <div className="text-1">Hello, My Name is</div>
-            <div className="text-2"><span>S</span>onu <span>K</span>umar</div>
-            <div className="text-3">And I'm a
-            <span className="typing">
-                <TypedAnim
-                  strings={["Developer", "Gamer", "Designer", "Freelancer"]}
-                />
-              </span>
-            </div>
-
+    <section className="home" id="home">
+      <div id="particles-js"></div>
+      <div className="max-width">
+        <div className="home-content">
+          <div className="text-1">Greetings,</div>
+          <div className="text-2">We, <span >SardarJi Building Solutions</span>, are
+            a complete <span >Build Mart</span> (Building Material) store in
+            <span > Bilaspur</span> and we have projects running in Chhattisgarh, Madhya Pradesh,
+            Maharashtra, Orissa, Bihar etc.</div>
+          <div className="text-3">We are Dealers &amp; Distributers of 
+          <span className="typing">
+              <TypedAnim
+                strings={["Cement", "Iron & Steel and TMT", "AAC Blocks", "Paints",
+                "Wood Polish"]}
+              />
+            </span>
           </div>
 
         </div>
-      </section>
 
-
-
-
+      </div>
+    </section>
     </div>
   )
 }
