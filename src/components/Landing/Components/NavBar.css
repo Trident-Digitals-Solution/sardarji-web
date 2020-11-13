@@ -170,7 +170,6 @@ section .title::after {
 /* home section styling */
 .home {
   display: flex;
-  position: relative;
   /* background: url("../images/MainBackground.jpg") no-repeat center; */
   background: url("../../BackgroundCover/images/Arch.jpg");
   filter: brightness(50%);
@@ -180,14 +179,12 @@ section .title::after {
   background-size: cover;
   background-attachment: fixed;
   font-family: 'Ubuntu', sans-serif;
-  z-index: -100;
 }
 
 
 
 .home .max-width {
   margin: auto 0 auto 30px;
-  z-index: 1;
 }
 
 .home .home-content .text-1 {
