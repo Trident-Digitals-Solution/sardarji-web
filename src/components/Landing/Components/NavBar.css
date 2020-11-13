@@ -166,7 +166,7 @@ section .title::after {
 /* home section styling */
 .home {
   display: flex;
-  background: url("../images/MainBackground.jpg") no-repeat center;
+  /* background: url("../images/MainBackground.jpg") no-repeat center; */
   height: 100vh;
   color: #fff;
   min-height: 500px;
@@ -180,17 +180,18 @@ section .title::after {
 }
 
 .home .home-content .text-1 {
-  font-size: 27px;
+  font-size: 35px;
 }
 
 .home .home-content .text-2 {
-  font-size: 75px;
+  font-size: 22px;
   font-weight: 600;
   margin-left: -3px;
+  padding: 8px 0;
 }
 
 .home .home-content .text-2 span {
-  color: rgba(2, 255, 2, .5);
+  color: rgb(255, 232, 25);
 }
 
 .home .home-content .text-3 {
@@ -207,7 +208,7 @@ section .title::after {
 }
 
 .typing {
-  color: #111;
+  color: rgb(255, 232, 25);
 }
 
 .home .home-content a {
@@ -227,6 +228,16 @@ section .title::after {
 .home .home-content a:hover {
   color: rgb(109, 23, 40);
   background: white;
+}
+
+.home-cover {
+  background-color: rgba(0, 0, 0, 0.726);
+  z-index: -50;
+  width: 100vw;
+  height: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 @media (max-width: 1300px) {
@@ -351,7 +362,7 @@ section .title::after {
 
 @media (max-width: 500px) {
   .home .home-content .text-2 {
-    font-size: 50px;
+    font-size: 16px;
   }
 
   .home .home-content .text-3 {
