@@ -5,7 +5,7 @@ function CardItem(props) {
   const [readMore, setReadMore] = useState(false);
 
   const extraContent = <p>{props.text}</p>
-  const linkName = readMore ? 'Read less' : 'Read more'
+  const linkName = readMore ? 'Read less' : 'Read more»'
 
 
   return (
