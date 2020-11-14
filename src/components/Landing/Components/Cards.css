@@ -7,7 +7,7 @@ h1 {
   padding: 4rem;
   background: #fff;
   margin-bottom: 0px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Ubantu', sans-serif;
 }
 
 .cards>p {
@@ -28,7 +28,7 @@ h1 {
 }
 
 .cards>h1::after {
-  content: "c";
+  content: "";
   position: relative;
   height: 4px;
   background-color: black;
