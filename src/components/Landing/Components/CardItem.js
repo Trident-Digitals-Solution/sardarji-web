@@ -5,7 +5,7 @@ import "aos/dist/aos.css"
 function CardItem(props) {
 
   useEffect(() => {
-    AOS.init({ duration: 1000 })
+    AOS.init({ duration: 500 })
   }, [])
 
   const [readMore, setReadMore] = useState(false);
