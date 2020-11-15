@@ -96,6 +96,10 @@ h1 {
   overflow: hidden;
 }
 
+.cards__item__pic-wrap>img {
+  z-index: -100;
+}
+
 .fade-img {
   animation-name: fade-img;
   animation-duration: 2s;
@@ -129,6 +133,7 @@ h1 {
   object-fit: cover;
   transition: all 0.2s linear;
 }
+
 
 .cards__item__img:hover {
   transform: scale(1.1);
