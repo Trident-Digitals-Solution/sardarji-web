@@ -1,7 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from './Button';
-import { Link } from 'react-router-dom';
+import './Button.css'
 
 function Footer() {
   return (
@@ -18,7 +17,7 @@ function Footer() {
               type='email'
               placeholder='Your Email'
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <button className='btn--outline'>Subscribe</button>
           </form>
         </div>
         <p className='footer-subscription-text'>
@@ -65,10 +64,10 @@ function Footer() {
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
+            <a href='#home' className='social-logo'>
               <img src='/images/logo.png' alt="Logo" style={{ width: "50px", marginRight: "10px" }} />
 
-            </Link>
+            </a>
           </div>
           <small class='website-rights'>Trident Digitals © 2020 All Right Reserve</small>
           <div class='social-icons'>

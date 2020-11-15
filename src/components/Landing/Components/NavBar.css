@@ -172,16 +172,13 @@ section .title::after {
   display: flex;
   /* background: url("../images/MainBackground.jpg") no-repeat center; */
   background: url("../images/Arch.jpg");
-  filter: brightness(80%);
   height: 100vh;
-  color: #fff;
+  color: #b49f9f;
   min-height: 500px;
   background-size: cover;
   background-attachment: fixed;
   font-family: 'Ubuntu', sans-serif;
 }
-
-
 
 .home .max-width {
   margin: auto 0 auto 30px;
