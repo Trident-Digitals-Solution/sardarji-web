@@ -1,11 +1,11 @@
 import React from 'react'
-import './NavBar.css'
+import './Home.css'
 import TypedAnim from './TypedAnim';
 
-const NavBar = () => {
+const Home = () => {
   return (
     <div>
-      <nav className="navbar">
+      {/* <nav className="navbar">
         <div className="max-width">
           <div className="logo"><a href="#home">Sardar<span >Ji</span></a></div>
           <ul className="menu">
@@ -19,7 +19,7 @@ const NavBar = () => {
             <i className="fas fa-bars"></i>
           </div>
         </div>
-      </nav>
+      </nav> */}
 
       <section className="home" id="home">
         <div id="particles-js"></div>
@@ -45,4 +45,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
+export default Home
