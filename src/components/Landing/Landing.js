@@ -9,6 +9,7 @@ const Landing = () => {
       <NavBar />
       {/* <Home /> */}
       <Cards />
+      {/* <Card /> */}
       <Footer />
     </div>
   )
